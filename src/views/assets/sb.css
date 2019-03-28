@@ -1,0 +1,79 @@
+/*
+ * Empty Stylesheet file.
+ */
+
+.sidebar {
+-fx-background-color:#ff5c50;
+}
+.sidebar-btn{
+    -fx-background-color: transparent;
+    -fx-background-radius: 0px;
+    -fx-text-fill: white;
+}
+.sidebar-user-btn{
+    -fx-background-color: transparent;
+    -fx-background-radius: 0px;
+    -fx-text-fill: #b8b1b1;
+}
+
+.sidebar-btn{
+    -fx-background-color: transparent;
+    -fx-background-radius: 0px;
+    -fx-text-fill: #b8b1b1;
+}
+.sidebar-btn:hover{
+    -fx-background-color: transparent;
+    -fx-background-radius: 0px;
+    -fx-text-fill: #b8b1b1;
+    -fx-border-color: #c51350;
+    -fx-border-width: 0px 0px 0px 3px;
+}
+.label{
+    -fx-text-fill: black;
+}
+.mybtn{
+    -fx-text-fill: red;
+}
+.sidebar-btn:pressed .label{
+    -fx-background-color: transparent;
+    -fx-background-radius: 0px;
+    -fx-text-fill: #0099ff;
+}
+
+.sidebar-btn:pressed .sidebar-btn-icon{
+    -fx-fill: #0099ff;
+}
+.sidebar-btn-icon{
+    -fx-fill: black;
+}
+.content-area{
+    
+     -fx-background-image: url('../images/lg.jpg');
+     -fx-background-size: 100% 100%;    
+ 
+}
+
+.menu-bar-btns{
+    -fx-background-color: transparent;
+    -fx-border-color: #cccccc;
+    -fx-border-width: 0px 0px 0px 1px;
+}
+.menu-bar-btns:hover{
+    -fx-background-color: black;
+}
+.menu-bar-btns-icon{
+    -fx-fill: #fda403;
+}
+.menu-bar-btns:hover .menu-bar-btns-icon{
+    -fx-fill: white;
+}
+.menu-bar-search-field{
+    -fx-prompt-text-fill: #b8b1b1;
+    -fx-text-fill: #000;
+}
+.menu-bar-search-field-box{
+    -fx-prompt-text-fill: #b8b1b1;
+    -fx-text-fill: #000;
+    -fx-border-color: #cccccc;
+    -fx-border-width: 0px 0px 0px 1px;
+}

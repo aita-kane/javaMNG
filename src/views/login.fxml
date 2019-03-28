@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXPasswordField?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<!--
+<?import javafx.scene.effect.Reflection?>
+<?import javafx.scene.text.Text?>-->
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.loginController">
+   <children>
+      <AnchorPane prefHeight="500.0" prefWidth="800.0" styleClass="login" stylesheets="@assets/loginstyle.css">
+         <children>
+            <AnchorPane layoutX="179.0" layoutY="118.0">
+               <children>
+                  <AnchorPane layoutX="15.0" layoutY="14.0" prefHeight="320.0" prefWidth="400.0" style="-fx-background-color: white; -fx-border-color: #cecece; -fx-border-width: 1px;">
+                     <children>
+                        <JFXTextField fx:id="txtUsr" alignment="CENTER" focusColor="BROWN" labelFloat="true" layoutX="51.0" layoutY="94.0" prefHeight="40.0" prefWidth="290.0" promptText="nom de connexion" style="-fx-border-width: 1px; -fx-border-color: #cecece;" unFocusColor="WHITE">
+                           <font>
+                              <Font name="Libre Baskerville" size="10.0" />
+                           </font>
+                        </JFXTextField>
+                        <JFXPasswordField fx:id="txtPwd" alignment="CENTER" focusColor="BROWN" labelFloat="true" layoutX="54.0" layoutY="167.0" prefHeight="40.0" prefWidth="290.0" promptText="mot de passe" style="-fx-border-width: 1px; -fx-border-color: #cecece;" unFocusColor="WHITE">
+                           <font>
+                              <Font name="Libre Baskerville" size="10.0" />
+                           </font>
+                        </JFXPasswordField>
+                        <Label alignment="CENTER" contentDisplay="CENTER" ellipsisString="" layoutX="6.0" layoutY="5.0" prefHeight="43.0" prefWidth="384.0" text="Connexion" textFill="#832c04">
+                           <font>
+                              <Font name="Libre Baskerville Bold" size="18.0" />
+                           </font>
+                        </Label>
+                        <JFXButton fx:id="btnLogin" alignment="CENTER" buttonType="RAISED" layoutX="56.0" layoutY="253.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onAction="#btnLogIn" prefHeight="46.0" prefWidth="290.0" style="-fx-background-color: black; -fx-background-radius: 0.3px;" text="Se connecter" textAlignment="JUSTIFY" textFill="WHITE">
+                           <font>
+                              <Font name="Libre Baskerville" size="18.0" />
+                           </font>
+                        </JFXButton>
+                     </children>
+                  </AnchorPane>
+               </children>
+            </AnchorPane>
+            <Label fx:id="lb_Erreur" alignment="CENTER" layoutX="195.0" layoutY="133.0" prefHeight="20.0" prefWidth="400.0" textFill="RED">
+               <font>
+                  <Font name="Libre Baskerville" size="12.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" contentDisplay="CENTER" layoutX="195.0" layoutY="50.0" prefHeight="46.0" prefWidth="400.0" style="-fx-background-color: #ffa500;" text="GLOBAL EXPERTISE">
+               <font>
+                  <Font name="Lucida Sans Unicode" size="28.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
